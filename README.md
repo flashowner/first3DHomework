@@ -33,3 +33,7 @@ Assets: asset指的是资源，像游戏中用到的模型啊声音啊动画啊�
 从结果中可以看出，Awake行为是在游戏对象被唤醒时就调用的，Start行为是游戏对象开始执行行为时调用
 的，可以看作是初始化，Update是每一帧画面都调用，LateUpdate是在所有Update都执行完后才调用，Fix
 Update是最后才调用的，因为FixedUpdate一般都是用来控制物体移动的和Rigidbody有关的行为。<br>
+代码：<br>
+![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%875.PNG)
+<br>
+结果：<br>
