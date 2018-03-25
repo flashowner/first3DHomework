@@ -24,3 +24,7 @@ Assets: asset指的是资源，像游戏中用到的模型啊声音啊动画啊�
 游戏对象应该是另一个游戏对象的子对象。
 
 ### 3. 编写一个代码，使用debug语句来验证MonoBehaviou 基本行为或事件触发的条件
+代码：<br>
+![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%873.PNG)
+<br>
+结果：<br>
