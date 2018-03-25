@@ -37,3 +37,19 @@ Update是最后才调用的，因为FixedUpdate一般都是用来控制物体移
 ![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%875.PNG)
 <br>
 结果：<br>
+![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%876.PNG)
+<br>
+从结果上看，OnEnable事件是在游戏对象创建的时候调用的，OnDisable事件是在游戏对象被销毁时调用的，
+而OnGUI是在游戏运行的每一帧调用的
+
+### 4. 查找脚本手册，了解 GameObject，Transform，Component 对象
+* 分别翻译官方对三个对象的描述（Description）
+游戏对象(GameObject)是在Unity中用来表示人物，道具和风景的对象，它们并没有太多的自我实现但是它们
+作为部件的容器可以实现真正的功能。
+(Transform)变换组件决定的是在场景中每一个对象的位置，旋转和大小。每一个游戏对象都有一个变换。
+(Component)组件是一切附加到物体的基类
+* 描述下图中 table 对象（实体）的属性、table 的 Transform 的属性、 table 的部件
+table是一个3D部件是一个立方体，它的名字叫table，它的Transform属性有三个特性position,rotation,
+scale，分别表示它在世界地图的位置，旋转和大小，可以看出table的位置是(0,0,0)，它并没有旋转，而且
+从大小可以看出它是一个长宽高都是1的立方体。table的部件有Transform:游戏对象的转换，Mesh Henderer
+:游戏对象的渲染，Mateirals:游戏对象的材质，Box Collider游戏对象的材质
