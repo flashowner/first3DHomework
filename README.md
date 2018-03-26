@@ -72,3 +72,4 @@ UML图：<br>
 预设：<br>
 ![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%879.PNG)
 实例化预设代码：<br>
+![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%8710.PNG)
