@@ -54,3 +54,10 @@ scale，分别表示它在世界地图的位置，旋转和大小，可以看出
 从大小可以看出它是一个长宽高都是1的立方体。table的部件有Transform:游戏对象的转换，Mesh Henderer<br>
 :游戏对象的渲染，Mateirals:游戏对象的材质，Box Collider是游戏对象的碰撞器<br>
 UML图：<br>
+![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%877.PNG) <br>
+
+### 5. 整理相关学习资料，编写简单代码验证以下技术的实现：
+* 查找对象
+* 添加子对象
+* 遍历对象树
+* 清除所有子对象
