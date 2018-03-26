@@ -53,3 +53,4 @@ table是一个3D部件是一个立方体，它的名字叫table，它的Transfor
 scale，分别表示它在世界地图的位置，旋转和大小，可以看出table的位置是(0,0,0)，它并没有旋转，而且<br>
 从大小可以看出它是一个长宽高都是1的立方体。table的部件有Transform:游戏对象的转换，Mesh Henderer<br>
 :游戏对象的渲染，Mateirals:游戏对象的材质，Box Collider是游戏对象的碰撞器<br>
+UML图：<br>
