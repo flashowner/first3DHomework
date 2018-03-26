@@ -73,3 +73,8 @@ UML图：<br>
 ![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%879.PNG) <br>
 实例化预设代码：<br>
 ![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%8710.PNG) <br>
+
+### 7. 尝试解释组合模式（Composite Pattern / 一种设计模式）。使用 BroadcastMessage() 方法
+组合模式，将对象组合成树形结构以表示'部分-整体'的层次结构。组合模式使得用户对单个对象和组合对象的使用<br>
+具有一致性。<br>
+代码：<br>
