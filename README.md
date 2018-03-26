@@ -70,3 +70,5 @@ UML图：<br>
 对象生成的实例而已，和原来的对象并没有关联，而预设生成的实例是从预设中生成的实例，修改预设可以在实例上<br>
 应用相同的改变；<br>
 预设：<br>
+![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%879.PNG)
+实例化预设代码：<br>
