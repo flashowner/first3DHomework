@@ -72,27 +72,35 @@ UML图：<br>
 预设：<br>
 ![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%879.PNG) <br>
 实例化预设代码：<br>
-![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%8710.PNG) <br>
+![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%8710.PNG) <br>
 
 ### 7. 尝试解释组合模式（Composite Pattern / 一种设计模式）。使用 BroadcastMessage() 方法
 组合模式，将对象组合成树形结构以表示'部分-整体'的层次结构。组合模式使得用户对单个对象和组合对象的使用<br>
 具有一致性。<br>
 代码：<br>
-![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%8711.PNG)<br>
+![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%8711.PNG)<br>
 
 ## 井字棋的介绍
 井字棋做出来的效果如图所示：<br>
-
+![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%8723.PNG) <br>
+![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%8724.PNG) <br>
 一开始的是一个开始界面，点击Start Game后游戏开始，只有当一方完成连续三个连线的时候游戏结束，按下Reset按钮可以<br>
 重新开始<br>
 首先为了更好的管理资源，我建立了5个文件夹，_Scenes用来放置场景，Audio用来放置游戏需要用到的声音，Materials<br>
 用来放置材质，Scripts用来放置游戏中的脚本，Texture2D用来放置游戏用到的图片：<br>
-
+![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%8712.PNG) <br>
 由于该游戏是2D的界面，但是我们使用3D模式来做的，因此需要给它一个背景，在这里我将照相机照在一个平面上，然后给这个<br>
 平面加上一个背景，这样在游戏视图中显示出来的就是这个平面的背景<br>
-
+![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%8713.PNG) <br>
 由于GUI部件的特性，所以需要将脚本附加在相机上：<br>
-
+![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%8714.PNG) <br>
 然后我又创建了多个空物体用来添加单独的声音资源，背景音乐的声音资源加在相机上：<br>
-
+![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%8715.PNG) <br>
+![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%8716.PNG) <br>
 最后是游戏具体实现的代码：<br>
+![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%8717.PNG) <br>
+![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%8718.PNG) <br>
+![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%8719.PNG) <br>
+![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%8720.PNG) <br>
+![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%8721.PNG) <br>
+![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%8722.PNG) <br>
