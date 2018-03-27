@@ -12,32 +12,32 @@ Assets: asset指的是资源，像游戏中用到的模型啊声音啊动画啊�
 下载的案例：Tank! Tutorial，Space Shooter<br>
 因为这些案例的目录组织和数的结构都是差不多的，所以我以坦克大战为例<br>
 
-![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%871.PNG)
+![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%871.PNG)
 <br>
 这是坦克大战的目录，从中可以看出资源的文件夹下有很多子文件夹，同一类型的资源放在同一个文件夹下，比如<br>
 说所有的脚本文件都放在Scripts这个文件夹下，所有的模型都放在Prefabs这个文件夹下。然后在对应的类下，<br>
 又可以有一些分支，所有的这些文件构成了资源<br>
 
-![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%872.PNG)<br>
+![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%872.PNG)<br>
 这是坦克大战游戏对象树的层次目录，可以看出游戏对象既可以由它自己组成，也可以由游戏对象及它的子树构成<br>
 ，树形的层次结构很好的显示了不同游戏对象之间的关系。如果一个游戏对象受另一个游戏对象的控制，那么这个<br>
 游戏对象应该是另一个游戏对象的子对象。<br>
 
 ### 3. 编写一个代码，使用debug语句来验证MonoBehaviou 基本行为或事件触发的条件
 代码：<br>
-![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%873.PNG)
+![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%873.PNG)
 <br>
 结果：<br>
-![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%874.PNG)
+![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%874.PNG)
 <br>
 从结果中可以看出，Awake行为是在游戏对象被唤醒时就调用的，Start行为是游戏对象开始执行行为时调用<br>
 的，可以看作是初始化，Update是每一帧画面都调用，LateUpdate是在所有Update都执行完后才调用，Fix<br>
 Update是最后才调用的，因为FixedUpdate一般都是用来控制物体移动的和Rigidbody有关的行为。<br>
 代码：<br>
-![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%875.PNG)
+![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%875.PNG)
 <br>
 结果：<br>
-![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%876.PNG)
+![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%876.PNG)
 <br>
 从结果上看，OnEnable事件是在游戏对象创建的时候调用的，OnDisable事件是在游戏对象被销毁时调用的，<br>
 而OnGUI是在游戏运行的每一帧调用的<br>
@@ -54,7 +54,7 @@ scale，分别表示它在世界地图的位置，旋转和大小，可以看出
 从大小可以看出它是一个长宽高都是1的立方体。table的部件有Transform:游戏对象的转换，Mesh Henderer<br>
 :游戏对象的渲染，Mateirals:游戏对象的材质，Box Collider是游戏对象的碰撞器<br>
 UML图：<br>
-![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%877.PNG) <br>
+![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%877.PNG) <br>
 
 ### 5. 整理相关学习资料，编写简单代码验证以下技术的实现：
 * 查找对象
@@ -62,7 +62,7 @@ UML图：<br>
 * 遍历对象树
 * 清除所有子对象<br>
 代码：<br>
-![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%878.PNG) <br>
+![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%878.PNG) <br>
 
 ### 6. 资源预设（Prefabs）与 对象克隆 (clone)
 预设可以将制作的游戏对象弄成一个模型，在以后需要使用的时候只需要将它拖出去就可以了，减少了重复的操作<br>
@@ -70,7 +70,7 @@ UML图：<br>
 对象生成的实例而已，和原来的对象并没有关联，而预设生成的实例是从预设中生成的实例，修改预设可以在实例上<br>
 应用相同的改变；<br>
 预设：<br>
-![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%879.PNG) <br>
+![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%879.PNG) <br>
 实例化预设代码：<br>
 ![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%8710.PNG) <br>
 
