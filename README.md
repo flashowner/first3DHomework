@@ -78,3 +78,9 @@ UML图：<br>
 组合模式，将对象组合成树形结构以表示'部分-整体'的层次结构。组合模式使得用户对单个对象和组合对象的使用<br>
 具有一致性。<br>
 代码：<br>
+![](https://github.com/flashowner/first3DHomework/blob/master/%E5%9B%BE%E7%89%8711.PNG)<br>
+
+## 井字棋的介绍
+首先为了更好的管理资源，我建立了5个文件夹，_Scenes用来放置场景，Audio用来放置游戏需要用到的声音，Materials<br>
+用来放置材质，Scripts用来放置游戏中的脚本，Texture2D用来放置游戏用到的图片：<br>
+
